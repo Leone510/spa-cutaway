@@ -21,7 +21,7 @@ export const HeaderCutaway = (props) => {
                <div className="logo">
 
                   <div className="logoImg">
-                     <img src="/img/avatar.jpg" alt="avatar" />
+                     <img src={props.person.photo} alt="avatar" />
                   </div>
 
                   <Title color={"#5b5643"}>

@@ -57,7 +57,7 @@ export const CityCard = ({cityName, cityCoord}) => {
                   {icon("100px", "100px")}
                </> 
             :
-               <StyledImage height="40px" width="40px" src="img/loading.gif"/> 
+               <StyledImage height="https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/loading.gif"/> 
             }
          </Flex>
 

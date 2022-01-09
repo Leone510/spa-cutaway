@@ -57,7 +57,7 @@ export const HourlyTemp = ({hourlyTemp}) => {
                })
                
             :
-               <StyledImage height="190px" fit="contain" src="img/loading.gif"/>
+               <StyledImage height="190px" fit="contain" src="https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/loading.gif"/>
             }
          </>
       </StyledHourlyTemp>

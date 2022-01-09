@@ -6,9 +6,9 @@ export const StyledTitle = styled.div`
    display: inline-flex;
    align-items: center;
    color: ${({color}) => color || "black"};
-   font-size: 1em;
+   font-size: small;
 
    @media ${device.tablet} {
-      font-size: 1.6em;
+      font-size: large;
    }
 `

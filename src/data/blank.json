@@ -33,7 +33,7 @@
    "person" : {
       "name": "Kirill",
       "surname" : "Yemets",
-      "photo": "img/avatar.jpg",
+      "photo": "https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/avatar.jpg",
       "text": "I am is - react frontend developer"
    }
 }

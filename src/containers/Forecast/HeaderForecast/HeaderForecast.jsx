@@ -18,7 +18,7 @@ export const HeaderForecast = ({width}) => {
 
                   <div className="logo">
                      <div className="logoImg">
-                        <img src='/img/Weather-icon.png' alt="Weather-icon" />
+                        <img src='https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/Weather-icon.png' alt="Weather-icon" />
                      </div>
                      <Title>
                         <span><b>Weather<br/>forecast</b></span>
