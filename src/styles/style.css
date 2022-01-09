@@ -1,0 +1,150 @@
+header {
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header .logo {
+  width: 200px;
+  height: 45px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (min-width: 768px) {
+  header .logo {
+    height: 70px;
+  }
+}
+
+header .logo .logoImg {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #d5921a;
+}
+
+@media screen and (min-width: 768px) {
+  header .logo .logoImg {
+    margin-left: 20px;
+    height: 70px;
+    width: 70px;
+  }
+}
+
+header .logo .logoImg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+header .logo .logoTitle {
+  margin-left: 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #5b5643;
+}
+
+header .logo .logoTitle h2 {
+  display: inline-block;
+  font-size: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+  header .logo .logoTitle h2 {
+    font-size: 1.5em;
+  }
+}
+
+main .globalBtn {
+  width: 100vw;
+  height: 100vh;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+}
+
+main .polaroidBox {
+  position: relative;
+  -webkit-transform: rotate(-3deg);
+          transform: rotate(-3deg);
+}
+
+main .polaroidBox .photoBox {
+  width: 68.6%;
+  height: 61%;
+  position: absolute;
+  top: 15.7%;
+  left: 15.5%;
+}
+
+main .polaroidBox .photoBox .photo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .polaroidBox .nameBox {
+  width: 70%;
+  height: 10%;
+  position: absolute;
+  top: 80%;
+  left: 15%;
+}
+
+main .polaroidBox .nameBox h2 {
+  font-family: "Style Script", cursive;
+}
+
+main .greetingsBox {
+  width: 73%;
+  height: 60%;
+  position: absolute;
+  top: 18%;
+  left: 12%;
+}
+
+main .demoBox {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: #1a1918;
+}
+
+footer .footerWrapper {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
