@@ -101,7 +101,7 @@ export const City = () => {
 
             </StyledInnerTable>
          :
-         <StyledImage width="auto" height="auto" src="img/tablePlug.gif"/>
+         <StyledImage width="auto" height="auto" src="https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/tablePlug.gif"/>
          }
       </StyledCity>
    )
