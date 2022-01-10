@@ -21,6 +21,9 @@ export const HourlyTemp = ({hourlyTemp}) => {
          
          case num > 75 :
             return {r: "250", g: String((num-75)*10), b: "0"};
+
+         default :
+            return {r: "250", g: "250", b: "250"};
       }
    }
 
@@ -29,7 +32,7 @@ export const HourlyTemp = ({hourlyTemp}) => {
       const tempsArr = daylyTemps.map(hour => Math.round(hour.temp));
       const min = Math.min.apply(null, tempsArr);
       const max = Math.max.apply(null, tempsArr);
-      const difference = max - min;
+      const difference = !!(max - min) ? max - min : 2; // exclude "0"
       const height = Math.round(200 / (difference));
       const coordinates = tempsArr.map((hour, i) => {
          return {
