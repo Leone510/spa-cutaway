@@ -8,6 +8,7 @@ export const StyledHour = styled.div`
    align-items: center;
    border: 1px solid #000000;
    box-sizing: border-box;
+   font-size: small;
    
    ${props => {
       return (`

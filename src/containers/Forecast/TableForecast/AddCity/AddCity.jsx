@@ -8,6 +8,7 @@ import { forecastActions } from "../../../../store/forecast/actionTypes";
 import { StyledInput } from "../../../../components/Input/StyledInput";
 import { StyledForm } from "../../../../components/Form/StyledForm";
 import { getCurrentWeather } from '../../../../api';
+import { StyledModalMessage } from '../StyledModalMessage';
 
 const schema = yup.object().shape({
    city: yup
@@ -44,7 +45,7 @@ export const AddCity = () => {
       <StyledForm onSubmit={handleSubmit(handleCityAdd)}>
 
          <Flex flex={"1 1 100%"} direction="column">
-            <h2><b>Add a new city to yours "City list"</b></h2>
+            <StyledModalMessage><b>Add a new city to yours "City list"</b></StyledModalMessage>
          </Flex>
 
          <Flex flex={"1 1 100%"} direction="column" justify="flex-start" align="center">
