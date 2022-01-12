@@ -1,5 +1,5 @@
 import { useHistory } from "react-router";
-import { HiChevronDoubleLeft } from "react-icons/hi";
+import { ImExit } from "react-icons/im";
 import { StyledButton } from "../../../../components/Button/StyledButton";
 
 export const BackBtn = () => {
@@ -14,7 +14,7 @@ export const BackBtn = () => {
          onClick={() => history.push('/cuaway')}
       >
 
-         <HiChevronDoubleLeft size="3em" color="MidnightBlue"/>
+         <ImExit size="3em" color="MidnightBlue"/>
 
       </StyledButton>
    )

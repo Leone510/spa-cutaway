@@ -28,7 +28,7 @@ export const HeaderForecast = ({width}) => {
                </Flex>
 
                <Flex justify="flex-end">
-                     <BackBtn/>
+                     <span><b>Exit </b></span> <BackBtn/>
                </Flex>
 
             </ContentWrapper>
