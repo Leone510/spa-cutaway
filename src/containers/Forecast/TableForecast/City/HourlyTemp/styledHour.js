@@ -7,6 +7,7 @@ export const StyledHour = styled.div`
    justify-content: space-around;
    align-items: center;
    border: 1px solid #000000;
+   border-radius: 5px;
    box-sizing: border-box;
    font-size: small;
    

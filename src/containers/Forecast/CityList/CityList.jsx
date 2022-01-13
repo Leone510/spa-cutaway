@@ -3,16 +3,28 @@ import { Flex } from "../../../components/Flex/Flex";
 import { CityCard } from "../CityCard/CityCard";
 import { AddBtn } from "./AddBtn/AddBtn";
 import { RefreshBtn } from "./RefreshBtn/RefreshBtn";
-// import { SortBtn } from "./SortBtn/SortBtn";
+import { SortBtn } from "./SortBtn/SortBtn";
 import { StyledCityList } from "./StyledCityList";
 
 export const CityList = ({cityList}) => {
    const [refresh, setRefresh] = useState(true);
-   // const [sortedList, setSortedList] = useState([...cityList.sort()]);
+   const [sorrtAsc, setSortAsc] = useState(true);
 
-   // const handleSort = () => {
-   //    setSortedList([...sortedList.reverse()]);
-   // }
+   const sortCityes = () => {
+      return (
+         sorrtAsc
+            ? cityList.sort((a, b) => {
+               if(a.name < b.name) return -1;
+               if(a.name > b.name) return 1;
+               return 0;
+            })
+            : cityList.sort((a, b) => {
+               if(a.name < b.name) return 1;
+               if(a.name > b.name) return -1;
+               return 0;
+            })
+      )
+   }
        
    return (
       <StyledCityList>
@@ -24,13 +36,13 @@ export const CityList = ({cityList}) => {
          </Flex>
 
          <Flex flex="0 0 50px">
-            {/* <SortBtn onClick={() => handleSort()} flex="1 1 auto"/> */}
+            <SortBtn onClick={() => setSortAsc(!sorrtAsc)} flex="1 1 auto"/>
             <AddBtn flex="1 1 auto"/>
             <RefreshBtn onClick={() => setRefresh(!refresh)} flex="1 1 auto"/>
          </Flex>
 
          <Flex flex="1 1 100%" justify={"flex-start"} direction={"column"} padding={"10px"}>
-            {cityList.map(city => {
+            {sortCityes().map(city => {
                
                return (
                   <CityCard cityCoord={city.coord} cityName={city.name} key={city.name}>
