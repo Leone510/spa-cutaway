@@ -91,12 +91,25 @@ export const City = () => {
                <HourlyTemp hourlyTemp={hourlyTemp}/>
 
                <Flex justify="space-around" flex="0 0 150px">
-                  <Button onClick={() => setRefresh(!refresh)} color="#DAD871">
+
+                  <Button 
+                     onClick={() => setRefresh(!refresh)} 
+                     color="#DAD871"
+                     flex={"0 1 150px"}
+                     margin={"0 10px"}
+                  >
                      <b>Refresh</b>
                   </Button>
-                  <Button onClick={() => dispatch(forecastActions.deleteCity(name))} color="#B03F35">
+
+                  <Button 
+                     onClick={() => dispatch(forecastActions.deleteCity(name))} 
+                     color="#B03F35"
+                     flex={"0 1 150px"}
+                     margin={"0 10px"}
+                  >
                      <b>Delete</b>
                   </Button>
+
                </Flex>
 
             </StyledInnerTable>

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from '../../../data/breakpoints';
 
 export const StyledCityCard = styled.div`
    width: 100%;
@@ -14,7 +13,6 @@ export const StyledCityCard = styled.div`
    cursor: pointer;
    transition: 0.6s;
    overflow: hidden;
-
 
    &:hover {
       height: 150px;
