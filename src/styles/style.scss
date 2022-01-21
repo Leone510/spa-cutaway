@@ -100,6 +100,7 @@ main {
 
   .polaroidBox {
     position: relative;
+    max-width: 500px;
     transform: rotate(-3deg);
 
     .photoBox {
@@ -131,7 +132,7 @@ main {
     width: 73%;
     height: 60%;
     position: absolute;
-    top: 18%;
+    top: 16%;
     left: 12%;
   }
 

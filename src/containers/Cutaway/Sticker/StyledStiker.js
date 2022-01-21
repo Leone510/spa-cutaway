@@ -2,7 +2,8 @@ import styled from 'styled-components';
 import { device } from '../../../data/breakpoints';
 
 export const StyledStiker = styled.div`
-   max-width: 95%;
+   height: 50%;
+   max-width: 94%;
    padding: 10px;
    box-sizing: border-box;
    object-fit: contain;
@@ -11,6 +12,6 @@ export const StyledStiker = styled.div`
    overflow: hidden;
 
    @media ${device.tablet} {
-      width:46%;
+      width:45%;
    }
 `

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { device } from '../../data/breakpoints';
 
 export const StyledButton = styled.button`
    width: ${({width}) => width || "150px"};
