@@ -9,19 +9,23 @@ export const StyledStiker = styled.div`
    display: flex;
    align-items: center;
    object-fit: contain;
-   flex: 0 1 35%;
+   flex: 0 0 35%;
    position: relative;
    transform: rotate(3deg);
    overflow: hidden;
 
    @media ${device.mobile} {
       width:94%;
-      flex: 0 1 50%;
+      flex: 0 0 50%;
    }
 
    @media ${device.tablet} {
       height: 50%;
-      flex: 0 1 44%;
+      flex: 0 0 44%;
       font-size: 1rem;
    }
+
+   @media screen and (orientation: landscape) {
+      height: 100%;
+    }
 `

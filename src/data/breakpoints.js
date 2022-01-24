@@ -12,4 +12,6 @@ export const device = {
    tablet: `(min-width: ${size.tablet})`,
    laptop: `(min-width: ${size.laptop})`,
    laptopL: `(min-width: ${size.laptopL})`,
+
+   landscape: `(orientation: landscape)`,
  };

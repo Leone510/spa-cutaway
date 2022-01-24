@@ -12,4 +12,8 @@ export const StyledGreetings = styled.div`
    @media ${device.tablet} {
       flex-direction: row;
    }
+
+   @media ${device.landscape}{
+      flex-direction: row;
+   }
 `

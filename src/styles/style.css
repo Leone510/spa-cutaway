@@ -117,6 +117,13 @@ main .greetingsBox {
   left: 12%;
 }
 
+@media screen and (orientation: landscape) {
+  main .greetingsBox {
+    top: 30%;
+    left: 12%;
+  }
+}
+
 main .greetingsBox h1 {
   font-size: 1.5em;
 }

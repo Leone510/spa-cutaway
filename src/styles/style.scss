@@ -136,6 +136,11 @@ main {
     top: 35%;
     left: 12%;
 
+    @media screen and (orientation: landscape) {
+      top: 30%;
+      left: 12%;
+    }
+
     h1 {
       font-size: 1.5em;
     }
