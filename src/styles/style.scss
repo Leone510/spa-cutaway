@@ -9,6 +9,7 @@ $primaryOrange: #d5921a;
 $primaryWhite: #f9f4e6;
 
 $tablet: 768px;
+$mobile: 425px;
 
 //---------------------------------------------------------------------------
 //--------------------------------- Mixins ----------------------------------
@@ -100,7 +101,7 @@ main {
 
   .polaroidBox {
     position: relative;
-    max-width: 500px;
+    width: 94%;
     transform: rotate(-3deg);
 
     .photoBox {
@@ -132,8 +133,20 @@ main {
     width: 73%;
     height: 60%;
     position: absolute;
-    top: 16%;
+    top: 35%;
     left: 12%;
+
+    h1 {
+      font-size: 1.5em;
+    }
+
+    h2 {
+      font-size: 1em;
+    }
+
+    @media screen and (min-width: $mobile) {
+      font-size: 1.5em;
+    }
   }
 
   //---------------------------------- Demo -----------------------------------

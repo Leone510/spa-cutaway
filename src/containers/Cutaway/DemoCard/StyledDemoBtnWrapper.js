@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledDemoBtnWrapper = styled.div`
-   width: 400px;
+   width: min(400px, 80vw);
    height: 150px;
    display: flex;
    justify-content: center;
