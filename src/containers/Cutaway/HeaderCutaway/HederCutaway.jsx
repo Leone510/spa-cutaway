@@ -6,6 +6,9 @@ import { Flex } from '../../../components/Flex/Flex';
 import { Navigation } from '../../Cutaway/Navigation/Navigation';
 import { StyledHeaderCutaway } from './StyledHeaderCutaway';
 import { Title } from '../../../components/Title/Title';
+import { Logo } from '../../../components/Logo/Logo';
+import { LogoImg } from '../../../components/Logo/StyledLogoImg/LogoImg';
+import { StyledImage } from '../../../components/StyledImage/StyledImage';
 
 export const HeaderCutaway = (props) => {
    const dispatch = useDispatch();
@@ -18,17 +21,16 @@ export const HeaderCutaway = (props) => {
       <StyledHeaderCutaway>
          <ContentWrapper width={props.settings.width}>
             <Flex justify="space-between">
-               <div className="logo">
 
-                  <div className="logoImg">
-                     <img src={props.person.photo} alt="avatar" />
-                  </div>
+               <Logo>
+                  <LogoImg>
+                     <StyledImage src={props.person.photo} alt="avatar" />
+                  </LogoImg>
 
                   <Title color={"#5b5643"}>
                      <h2>{`${props.person.surname} `}<br/>{props.person.name}</h2>
                   </Title>
-                  
-               </div>
+               </Logo>
 
                <nav>
                   <Navigation works={props.works}/>
@@ -36,6 +38,7 @@ export const HeaderCutaway = (props) => {
                      <Burger color="#f9f4e6"/>
                   </div>
                </nav>
+               
             </Flex>
          </ContentWrapper>
       </StyledHeaderCutaway>

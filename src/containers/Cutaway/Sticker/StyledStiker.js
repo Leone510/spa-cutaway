@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import { device } from '../../../data/breakpoints';
 
 export const StyledStiker = styled.div`
-   /* height: 50%; */
    max-width: 94%;
    padding: 10px;
    box-sizing: border-box;
@@ -24,8 +23,4 @@ export const StyledStiker = styled.div`
       flex: 0 0 44%;
       font-size: 1rem;
    }
-
-   @media screen and (orientation: landscape) {
-      height: 100%;
-    }
 `

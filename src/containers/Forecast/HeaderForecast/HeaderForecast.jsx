@@ -3,6 +3,9 @@ import { ContentWrapper } from "../../../components/ContentWrapper/ContentWrappe
 import { Flex } from "../../../components/Flex/Flex";
 import { Title } from "../../../components/Title/Title";
 import { BackBtn } from "./BackBtn/BackBtn";
+import { Logo } from "../../../components/Logo/Logo";
+import { LogoImg } from "../../../components/Logo/StyledLogoImg/LogoImg";
+import { StyledImage } from "../../../components/StyledImage/StyledImage";
 
 export const HeaderForecast = ({width}) => {
 
@@ -16,14 +19,19 @@ export const HeaderForecast = ({width}) => {
                   background="radial-gradient(rgba(87,42,159,1) 20%, rgba(106,90,205,1) 75%)"
                >
 
-                  <div className="logo">
-                     <div className="logoImg">
-                        <img src='https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/Weather-icon.png' alt="Weather-icon" />
-                     </div>
+                  <Logo>
+                     <LogoImg>
+                        <StyledImage 
+                           src='https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/Weather-icon.png' 
+                           alt="Weather-icon" 
+                           width={"100%"}
+                           height={"100%"}
+                        />
+                     </LogoImg>
                      <Title>
                         <span><b>Weather<br/>forecast</b></span>
                      </Title>
-                  </div>
+                  </Logo>
                   
                </Flex>
 

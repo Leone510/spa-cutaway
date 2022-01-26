@@ -6,6 +6,7 @@ export const StyledHeaderForecast = styled.header`
    height: 50px;
    background: #6A5ACD;
    border-bottom: 1px solid black;
+   box-sizing: border-box;
 
    @media ${device.tablet} {
       height: 100px;

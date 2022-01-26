@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import { RouterProcessor } from './components/RouterProcessor';
 import { appRouteMap } from './pages/RouteMap';
 
