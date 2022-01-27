@@ -7,5 +7,5 @@ export const StyledMainForecast = styled.main`
    position: relative;
    display: flex;
    justify-content: center;
-   background-image: url("https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/forecast-backgroun.jpg");
+   background-image: url("https://raw.githubusercontent.com/Leone510/spa-cutaway/gh-pages/img/forecast-backgroun.jpg");
 `

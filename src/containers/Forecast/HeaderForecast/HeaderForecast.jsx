@@ -22,7 +22,7 @@ export const HeaderForecast = ({width}) => {
                   <Logo>
                      <LogoImg>
                         <StyledImage 
-                           src='https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/Weather-icon.png' 
+                           src='https://raw.githubusercontent.com/Leone510/spa-cutaway/gh-pages/img/Weather-icon.png' 
                            alt="Weather-icon" 
                            width={"100%"}
                            height={"100%"}

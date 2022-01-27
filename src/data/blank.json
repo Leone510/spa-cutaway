@@ -7,7 +7,7 @@
       {
          "name": "Forecast",
          "background" : "url(https://photoshop-kopona.com/uploads/posts/2018-02/1518872696_colorful-background-9.jpg)",
-         "img": "url(https://raw.githubusercontent.com/Leone510/cutaway/main/public/img/cutawayPreview.jpg)",
+         "img": "url(https://raw.githubusercontent.com/Leone510/spa-cutaway/main/public/img/cutawayPreview.jpg)",
          "page": "/forecast"
       },
       {
@@ -33,7 +33,7 @@
    "person" : {
       "name": "Kirill",
       "surname" : "Yemets",
-      "photo": "https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/avatar.jpg",
+      "photo": "https://raw.githubusercontent.com/Leone510/spa-cutaway/gh-pages/img/avatar.jpg",
       "text": "I am is - react frontend developer"
    }
 }

@@ -10,7 +10,7 @@ export const Polaroid = ({photo, name, surname}) => {
       <StyledPolaroid >
          <PolaroidBox>
             <StyledImage
-               src="https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/pngable_polaroid.png" 
+               src="https://raw.githubusercontent.com/Leone510/spa-cutaway/gh-pages/img/pngable_polaroid.png" 
                alt="polaroid" 
             />
 

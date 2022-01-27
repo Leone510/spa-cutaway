@@ -9,7 +9,7 @@ export const MainCutaway = (props) => {
    return (
       <main>
 
-         <ContentContainer bottom unnecessary="100px" background='url("https://raw.githubusercontent.com/Leone510/cutaway/gh-pages/img/woodenWall.jpg");'>
+         <ContentContainer bottom unnecessary="100px" background='url("https://raw.githubusercontent.com/Leone510/spa-cutaway/gh-pages/img/woodenWall.jpg");'>
             <ContentWrapper width={props.settings.width}>
                <Greetings {...props}/>
             </ContentWrapper>
