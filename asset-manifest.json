@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/spa-cutaway/static/css/main.147ab673.chunk.css",
+    "main.js": "/spa-cutaway/static/js/main.de5a3fb7.chunk.js",
+    "main.js.map": "/spa-cutaway/static/js/main.de5a3fb7.chunk.js.map",
+    "runtime-main.js": "/spa-cutaway/static/js/runtime-main.0d16cb28.js",
+    "runtime-main.js.map": "/spa-cutaway/static/js/runtime-main.0d16cb28.js.map",
+    "static/js/2.cc752e97.chunk.js": "/spa-cutaway/static/js/2.cc752e97.chunk.js",
+    "static/js/2.cc752e97.chunk.js.map": "/spa-cutaway/static/js/2.cc752e97.chunk.js.map",
+    "index.html": "/spa-cutaway/index.html",
+    "static/css/main.147ab673.chunk.css.map": "/spa-cutaway/static/css/main.147ab673.chunk.css.map",
+    "static/js/2.cc752e97.chunk.js.LICENSE.txt": "/spa-cutaway/static/js/2.cc752e97.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d16cb28.js",
+    "static/js/2.cc752e97.chunk.js",
+    "static/css/main.147ab673.chunk.css",
+    "static/js/main.de5a3fb7.chunk.js"
+  ]
+}
